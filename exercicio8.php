@@ -17,8 +17,4 @@
     }
     else{
         print "O produto com menor preço é o Produto 3 | R$$produto3 \n";
-    }    //8. Faça um programa que pergunte o preço de três produtos e informe qual produto você deve comprar,
-4
-    //sabendo que a decisão é sempre pelo mais bar
-5
     
