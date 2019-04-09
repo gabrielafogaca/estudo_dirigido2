@@ -1,7 +1,5 @@
 <?php
 
-Faça um programa que leia 5 números e informe o maior número.
-
 print "Digite o 1º número: ";
 $num1= (float) fgets(STDIN);
 
