@@ -1,6 +1,5 @@
 <?php
 
-    //9. Faça um algoritmo que leia três números e mostre-os em ordem decrescente.
 
     print "Digite um número: ";
     $numero1 = (float) fgets (STDIN);
