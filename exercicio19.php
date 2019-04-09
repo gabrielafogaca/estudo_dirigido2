@@ -1,19 +1,12 @@
-<?php
-print "Série de Finabocci";
-print "A série vai até que o valor seja maior que 500.";
-
-
-sleep(1);
+print "Deseja Fibonacciar até quanto? ";
+$fibonacciar= (float) fgets(STDIN);
+print "(O valor *provavelmente* vai ultrapassar o digitado)\n";
+sleep (1);
 $fibonacci=0;
 $fibonaccinovo=1;
-
 print "$fibonacci $fibonaccinovo ";
-while ($fibonaccinovo1<$fibonacci);
-    {$fibonaccinovo1=$fibonacci+$fibonaccinovo;
-
-     print "$fibonaccinovo1 ";
+while ($fibonaccimaisnovoainda<$fibonacciar)
+    {$fibonaccimaisnovoainda=$fibonacci+$fibonaccinovo;
+     print "$fibonaccimaisnovoainda ";
      $fibonacci= $fibonaccinovo;
-     $fibonaccinovo= $fibonaccinovo1;}
-
-
-       
+     $fibonaccinovo= $fibonaccimaisnovoainda;}
